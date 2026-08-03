@@ -41,3 +41,7 @@ q10 = print(A.symmetric_difference(B))
 
 #Level 3
 q12 = print(set(age))
+q14 = 'I am a teacher and I love to inspire and teach people.'
+convert_to_list = q14.split()
+print(convert_to_list)
+unique_words = print(set(convert_to_list)) #a set when converted CANNOT create duplicates (nonindexed, unordered, 'DISTINCT')
